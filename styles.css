@@ -1,0 +1,121 @@
+ 
+    * { box-sizing: border-box;
+    }
+
+
+    .navbar-nav .nav-link {
+        color: #f0e8e7; /* Change this to your desired color */
+      }
+
+body {
+            font-family:"Times New Roman", Times, serif ;
+            
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #6b16bc;
+           
+            color: #333;
+        }
+
+        header {
+            border: 20px solid rgb(92, 48, 158);
+           background-color: #1f4553;
+           color: #169c1d;
+           
+            text-align: center;
+            padding: 20px 10px;
+        }
+
+        .profileImage{
+            max-width:100px; 
+            border-radius:50%;
+        }
+
+        section {
+            /*margin: 20px;
+            padding: 20px;*/
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+   
+        h1, h2 {
+            color: #4CAF50;
+        }
+        h3 {
+            color: #333;
+        }
+		
+        .main{
+            margin-top:0px;   
+        }
+		.fluid-container {
+            margin: 10px solid #6b16bc;
+            color: #4CAF50;
+            background-color: #6b16bc;
+            border: 30px solid #6b16bc;
+        }
+        br{
+            background-color: #6b16bc;
+        }
+        .cards {
+            margin-top:10px;
+            transition: transform 0.5s;
+            cursor: pointer;
+            padding : 30px;
+            height :90%;
+            background-color: #054842;
+            display: center;
+            line-clamp: 3;
+            border: 5px solid #032a27; 
+            border-radius: 2.25%;
+            text-align: center;
+            text-overflow: hidden;
+        }
+		.cards.flipped {
+			transform: rotateY(180deg);
+		}
+		.greenletters{
+		color :#054842;
+		}
+		.greenletters h2{
+	       	
+			color:#054842;
+		}
+		
+		.greenletters h3{
+		
+		    color:#054842;
+		}
+		
+		
+		.cards:hover {
+		     border-color :#6b16bc;
+		}
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        li {
+            margin: 5px 0;
+        }
+
+        footer {
+            border: 50px solid #480d7f; 
+            text-align: center;
+            padding: 15px 0;
+            background-color: #480d7f;
+            color: white;
+        }
+       .htmlIcon{
+            max-width:100px; 
+            border-radius:12.5%;
+            display:center;
+            z-index: 2;
+
+       }
+   
+
+    
