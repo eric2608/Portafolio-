@@ -73,6 +73,20 @@ body {
             text-align: center;
             text-overflow: hidden;
         }
+        .cards2 {
+            margin-top:10px;
+            transition: transform 0.5s;
+            cursor: pointer;
+            padding : 30px;
+            height :90%;
+            background-color: #1e3a38;
+            display: center;
+            line-clamp: 3;
+            border: 5px solid #032a27; 
+            border-radius: 2.25%;
+            text-align: center;
+            text-overflow: hidden;
+        }
 		.cards.flipped {
 			transform: rotateY(180deg);
 		}
